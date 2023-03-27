@@ -1,0 +1,14 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 3rem;
+  padding: 8px;
+}
+
+.board__buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}

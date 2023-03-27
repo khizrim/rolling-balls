@@ -1,0 +1,36 @@
+.button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #004fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(149, 211, 169, 0.5);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #f5f5f5;
+  color: #c2c2c2;
+  cursor: default;
+  box-shadow: none;
+}
+
+#remove {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  color: #c2c2c2;
+  font-weight: 400;
+}
+
+#remove:hover {
+  opacity: 0.7;
+}
