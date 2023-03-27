@@ -1,0 +1,26 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 28px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.games {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
